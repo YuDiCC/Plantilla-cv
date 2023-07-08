@@ -1,0 +1,42 @@
+body {
+    transition: background-color 0.5s ease;
+}
+
+h3{
+    color: #3949AB;
+}
+
+#dark-mode-icon{
+    color: black;
+    font-size: 25px;
+}
+.redsocial a{
+    text-decoration: none;
+    color: #3F51B5;
+}
+.redsocial li {
+    list-style-type: none;
+}
+
+.redsocial i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+
+/*Modo oscuro*/
+.dark-mode #dark-mode-icon{
+    color: white;
+}
+.dark-mode {
+    background-color: #111111;
+    color: white;
+}
+
+.dark-mode h3{
+    color: #F06292;
+}
+
+.dark-mode .redsocial a {
+    color: #FF80AB; 
+}
